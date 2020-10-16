@@ -6,8 +6,7 @@ Design Patterns Library
 https://app.pluralsight.com/library/courses/patterns-library/table-of-contents
 
 In this project you'll find my implementation of some of those patterns in PHP.
-
-These are the ones I have included so far, and I have them organized like this:
+These are the ones I have included so far, and I have them organized using the patterns classification, like this:
 
 - Behavioral Patterns:
   1. Chain of Responsibility 
@@ -23,3 +22,22 @@ These are the ones I have included so far, and I have them organized like this:
   1. Adapter
   2. Bridge
   3. Decorator
+
+Some notes about what design patterns are and aren't:
+1. Design Pattern is a blueprint, NOT an Algorithm and NOT code.
+2. A design pattern is a general and reusable solution to a common and recurring problem.
+3. Design Pattern is not a defined or finished solution to a problem, but a template or recipe to solve certain types of problems.
+4. A design pattern is an abstraction on top of code.
+5. Degsign Patterns deal with problems already solved.
+
+Patterns Classification:
+-Creational
+-Structural
+-Behavioral
+-Security
+-Concurrency
+-SQL
+-User Interface
+-Relational
+-Social 
+-Distributed
