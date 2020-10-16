@@ -1,0 +1,27 @@
+The Builder pattern
+
+Problem 1: Too many parameters
+Problem 2: Order dependent
+Problem 3: Different constructions
+
+Separates the construction of a complex object from its representation so that the same construction process can create different representations.
+
+When using the builder pattern, we want to separate our logic from our data!!!
+
+Components or roles of this pattern:
+1. the Builder:
+    -abstract interface or class
+    -defines steps
+    -holds instance of Product.
+2. the Director:
+    -uses the Concrete Builder.
+    -knows how to build.
+    -client code calls directly.
+3. the Concrete Builders:
+    -should be more than one
+    -provides implementation for interface provided by the Builder
+    -a recipe.
+4. the Product:
+    -what is being built
+    -not a different type, but different data.
+

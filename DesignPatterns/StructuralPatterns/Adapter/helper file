@@ -1,0 +1,11 @@
+The Adapter Pattern
+
+The intent:
+-to convert the interface of a class into another interface clients expect.
+-allow classes to work together that couldn't otherwise due to incompatible interfaces.
+-"future-proofs" client implementations by having them depend on Adapter interfaces, rather than concrete classes directly.
+
+When an Adapter pattern when:
+-you want to use an existing class, but its interface does not match the one you require.
+-you want to create a reusable class that cooperates with unrelated or unforeseen classes (i.e. classes that won't share the same interface)
+-you need to use several existing subclasses, but it's impractical to adapt their interface by subclassing everyone.
