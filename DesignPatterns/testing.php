@@ -6,4 +6,8 @@ class Test {
     public function testingE() {
         return true;
     }
+
+    public function testingD() {
+        return true;
+    }
 }
