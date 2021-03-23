@@ -1,5 +1,5 @@
 class Test {
-    public function testing(A, B, D) {
-        return A + B + D;
+    public function testing(A, B, C, D) {
+        return A + B + C + D;
     }
 }
